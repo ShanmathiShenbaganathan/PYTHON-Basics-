@@ -1,0 +1,30 @@
+a={'regno':101,'sname':'aaa','std':'4th'}
+a.get('regno')
+101
+a.get('sname')
+'aaa'
+a.keys()
+dict_keys(['regno', 'sname', 'std'])
+a.values()
+dict_values([101, 'aaa', '4th'])
+a.update({'age':12})
+a
+{'regno': 101, 'sname': 'aaa', 'std': '4th', 'age': 12}
+a.pop('age')
+12
+a
+{'regno': 101, 'sname': 'aaa', 'std': '4th'}
+a.pop('sname')
+'aaa'
+
+a
+{'regno': 101, 'std': '4th'}
+a.popitem()
+('std', '4th')
+a
+{'regno': 101}
+a={'regno':101,'sname':'aaa','std':'4th'}
+a.pop('std')
+'4th'
+a
+{'regno': 101, 'sname': 'aaa'}
