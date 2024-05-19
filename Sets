@@ -1,0 +1,73 @@
+s={1,2,3,'aaa',1.22}
+s
+{1.22, 2, 3, 1, 'aaa'}
+s.add('nnn')
+s
+{1.22, 2, 3, 1, 'nnn', 'aaa'}
+s.remove(0)
+Traceback (most recent call last):
+  File "<pyshell#17>", line 1, in <module>
+    s.remove(0)
+KeyError: 0
+s.remove(1.22)
+s
+{2, 3, 1, 'nnn', 'aaa'}
+s.pop()
+2
+s
+{3, 1, 'nnn', 'aaa'}
+s.pop()
+3
+s
+{1, 'nnn', 'aaa'}
+s1={1,2,3,4,5,6}
+s2={4,5,6,7,8,9}
+s1.union(s2)
+{1, 2, 3, 4, 5, 6, 7, 8, 9}
+s1.intersection(s2)
+{4, 5, 6}
+s1.issubset(s2)
+False
+s1.isdisjoint(s2)
+False
+s1.issuperset(s2)
+False
+s2={1,2,3,4,5,6}
+s1.issuperset(s2)
+True
+s1.issubset(s2)
+True
+s1.isdisjoint(s2)
+False
+s1={1,2,3,4,5,6}
+s2={1,2,3}
+s1.issuperset(s2)
+True
+s2.issuperset(s1)
+False
+s1.isdisjoint(s2)
+False
+s1.issubset(s2)
+False
+s1={1,2,3,4,5,6}
+s2={1,2,3,4,5,6,7,8}
+s1.issuperset(s2)
+False
+s2.issuperset(s1)
+True
+s1={1,2,3,4,5,6,7}
+s2={1,2,3,4}
+s1.issuperset(s2)
+True
+s1.isdisjoint(s2)
+False
+s1.issubset(s2)
+False
+s1.difference(s2)
+{5, 6, 7}
+s1.symmetric_difference(s2)
+{5, 6, 7}
+s1={1,2,3,4,5,6,7}
+s2={10,11,12,13}
+s1.isdisjoint(s2)
+True
