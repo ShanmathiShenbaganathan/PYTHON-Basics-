@@ -1,0 +1,50 @@
+a=10
+b=20
+a+b
+30
+b_a
+Traceback (most recent call last):
+  File "<pyshell#3>", line 1, in <module>
+    b_a
+NameError: name 'b_a' is not defined
+b-a
+10
+a*b
+200
+a=5
+b=2
+a**b
+25
+a/b
+2.5
+a//b
+2
+a%b
+1
+a=20
+b=10
+a>b
+True
+a<b
+False
+a>=b
+True
+a<=b
+False
+b=20
+a==b
+True
+b=10
+a!=b
+True
+b=20
+a!=b
+False
+a=10
+b=20
+a!=b
+True
+a=10
+b=10
+a!=b
+False
