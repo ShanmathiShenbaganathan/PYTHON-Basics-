@@ -1,0 +1,48 @@
+a='hello world'
+a.upper()
+'HELLO WORLD'
+a='HELLO'
+a.lower()
+'hello'
+a='hello world'
+a.isupper()
+False
+a.islower()
+True
+a.capitalize()
+'Hello world'
+a='hello world new world'
+a.title()
+'Hello World New World'
+a.isalpha()
+False
+a='hello world'
+a.isalpha()
+False
+a='helloworld'
+a.isalpha()
+True
+a='hello1234'
+a.isalnum()
+True
+a='  hello world  '
+strip()
+Traceback (most recent call last):
+  File "<pyshell#20>", line 1, in <module>
+    strip()
+NameError: name 'strip' is not defined
+a.strip()
+'hello world'
+a.find('o')
+6
+a
+'  hello world  '
+a='hello world'
+a.find('o')
+4
+a.find('w')
+6
+a.replace('h','t')
+'tello world'
+a
+'hello world'
