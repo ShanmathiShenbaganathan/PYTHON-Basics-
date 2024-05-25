@@ -4,7 +4,30 @@ def add(a,b):
 add(10,70)
 add(1,1)
 
+
 def add(a=5,b):
     c=a+b
     print(c)
 add(0,10)
+
+
+def a(name,age):
+    print("name",name)
+    print("age",age)
+a(age=20,name="aaa")
+
+
+def a(*a):
+    print(a)
+
+a(22,33,44,55,"aaa","uuu",1,43)
+
+
+def add(a,b):
+    return a+b
+
+r=add(10,10)
+print(r)
+
+print("the answer is ",add(10,60))
+print("the answer is ",add(10,90))
