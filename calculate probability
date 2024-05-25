@@ -1,0 +1,21 @@
+calculate_probability=function(favorable,total){
+  if(favorable>total){
+    return("Invalid Input.Favorable should be greater than or equal to total outcomes")
+  }
+  else if(favorable<0 || total<=0){
+    return("Invalid input.Favorable and the total outcomes cannot be less than or equal to zero")
+  }
+  else{
+    return(favorable/total)
+  }
+    
+}
+
+result= calculate_probability(4,8)
+cat("Probability:",result,"\n")
+
+result=calculate_probability(3,-2)
+cat("Probability:",result,"\n")
+
+result=calculate_probability(-3,2)
+cat("Probability:",result,"\n")
