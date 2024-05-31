@@ -1,0 +1,15 @@
+import os
+os. getcwd()
+'/Users/shanmathishenbaganathan/Documents'
+f=open("trail.txt","a")
+f.write("Deepak")
+6
+f.write("shanmathi")
+9
+f.close()
+f=open("trail.txt","r")
+f.read
+<built-in method read of _io.TextIOWrapper object at 0x100dbfae0>
+f.read()
+'Deepakshanmathi'
+f=open("/Users/shanmathishenbaganathan/Documents/filespython/trail.txt","a")
